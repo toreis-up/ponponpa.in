@@ -1,0 +1,15 @@
+.rainbow {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(45deg,
+  magenta,
+  orange,
+  cyan);
+  background-size: 500%;
+  animation: 1s linear 0s infinite alternate slide
+}
+
+@keyframes slide {
+  from {background-position: 0% 0%;}
+  to {background-position: 100% 0%;}
+}
