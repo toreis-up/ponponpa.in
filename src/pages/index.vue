@@ -7,7 +7,7 @@
     </div>
     <div class="footer">
       <footer>©{{ year }}
-      <my-link href="https://twitter.com/toreis-up">
+      <my-link href="https://twitter.com/toreis_up">
         toreis-up
       </my-link>
       </footer>
