@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="content">
-      <rainbow>
+      <rainbow class="pain">
         pͪoͣnͬpͣoͥnͭpͣa͡inͥ
       </rainbow>
     </div>
@@ -48,6 +48,10 @@ export default defineComponent({
 
 .content {
   padding-top: 20px;
+}
+
+.pain {
+  padding: 10%;
 }
 
 .footer {
